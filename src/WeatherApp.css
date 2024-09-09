@@ -1,0 +1,83 @@
+.container{
+    max-width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content-data{
+    background-color: rgb(1, 44, 71);
+    padding-top: 20px;
+    border-radius: 4px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+    width: 100%; 
+}
+
+input[type="text"]{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px; /* Agregar un margen inferior para separación */
+    width: 100%; /* Hacer que el input ocupe todo el ancho disponible */
+    box-sizing: border-box; /* Incluir el padding y borde dentro del ancho */
+    text-align: center;
+}
+
+button{
+    padding: 10px 40px;
+    background-color: rgb(27, 103, 148);
+    color: white;
+    border: none;
+    border: 4px;
+    cursor: pointer;
+    transition: 1s all ease;
+    width: 100%; /* Ancho al 50% del contenedor */
+    box-sizing: border-box; /* Incluir el padding y borde dentro del ancho */
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgb(13, 55, 82);
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+}
+
+p{
+    margin-bottom: 5px;
+    color: white;
+}
+
+img{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+@media (max-width:900px){
+    .container{
+        max-width: 80%;
+    }
+
+    h1{
+        font-size: 30ox;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+}
